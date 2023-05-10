@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C9D1D3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    max-width: 800px;
+    margin: 20px auto;
+background-color: #e3c2eb;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+padding: 20px;
+}
+.circles {
+    display:flex;
+    justify-content: space-evenly;
+    
+    margin: 0 auto -70px auto;
+}
+.circles a {
+    width: 120px; height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.pottery {
+    background-image: url(Images/Stoneware.jpg);
+    background-size: cover;
+}
+.crochet {
+    background-image: url(Images/Crocheting.jpg);
+    background-size: cover;
+}
+.embroidery {
+    background-image: url(Images/Embroidery.jpg);
+    background-size: cover;
+}
+.sewing {
+    background-image: url(Images/Sewing\ fabric.jpg);
+    background-size: cover;
+}
+h1 {
+margin: 0;
+font-size: 2.5em;
+font-family: 'Marck Script', cursive;
+text-align: center;
+}
+nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+display: flex;
+}
+nav li {
+margin-right: 20px;
+}
+nav a {
+color: #333;
+text-decoration: none;
+font-weight: bold;
+font-size: 1.2em;
+transition: all 0.3s ease;
+}
+nav a:hover {
+color: #F44336;
+}
+main {
+padding: 20px;
+max-width: 800px;
+margin: 70px auto 0 auto;
+}
+section {
+margin-bottom: 40px;
+}
+h2 {
+margin: 0;
+font-size: 2em;
+margin-bottom: 10px;
+}
+ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+li a {
+display: block;
+padding: 10px 0;
+border-bottom: 1px solid #ccc;
+transition: all 0.3s ease;
+}
+li a:hover {
+background-color: #F5F5F5;
+}
+footer {
+background-color: #333;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+footer p {
+margin: 0;
+font-size: 1.2em;
+}
